@@ -1,0 +1,26 @@
+{
+  "name": "patient",
+  "version": "0.0.0",
+  "description": "for paitens",
+  "author": "Nathan Dunn <ndunn@me.com>",
+  "homepage": "https://github.com/nathandunn/lerna-test-typescript-npm#readme",
+  "license": "UNLICENSED",
+  "main": "lib/patient.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathandunn/lerna-test-typescript-npm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/nathandunn/lerna-test-typescript-npm/issues"
+  }
+}
