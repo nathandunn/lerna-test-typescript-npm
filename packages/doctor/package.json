@@ -20,11 +20,15 @@
   },
   "scripts": {
     "publish": "yalc publish",
+	"build": " bili --format umd --module-name doctor src/doctor.ts",
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/nathandunn/lerna-test-typescript-npm/issues"
   },
-  "gitHead": "411035f67130e0f1b83635e428e3197ea781d836"
+  "gitHead": "411035f67130e0f1b83635e428e3197ea781d836",
+  "devDependencies": {
+    "rollup-plugin-typescript2": "^0.24.3"
+  }
 }
