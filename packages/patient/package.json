@@ -6,6 +6,7 @@
   "homepage": "https://github.com/nathandunn/lerna-test-typescript-npm#readme",
   "license": "UNLICENSED",
   "main": "lib/patient.js",
+  "typings": "lib/patient.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/nathandunn/lerna-test-typescript-npm/issues"
   },
-  "gitHead": "6af18e381e64e7451b693aaf45fe1afce2c9d56b"
+  "gitHead": "411035f67130e0f1b83635e428e3197ea781d836"
 }
