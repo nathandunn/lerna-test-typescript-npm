@@ -6,8 +6,11 @@
     "lerna": "^3.16.4",
     "typescript": "^3.6.3"
   },
+  "scripts": {
+    "publish": "lerna run tsc && lerna publish"
+  },
   "repository": {
-	  "type" : "git",
+    "type" : "git",
 	  "url" : "https://github.com/nathandunn/lerna-test-typescript-npm.git"
 	}
 }
