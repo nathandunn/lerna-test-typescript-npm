@@ -1,5 +1,5 @@
 {
-  "name": "scheduler",
+  "name": "@lerna-test-typescript-npm/scheduler",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Nathan Dunn <ndunn@me.com>",

@@ -1,5 +1,5 @@
 {
-  "name": "doctor",
+  "name": "@lerna-test-typescript-npm/doctor",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Nathan Dunn <ndunn@me.com>",

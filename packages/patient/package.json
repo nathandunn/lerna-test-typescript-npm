@@ -1,5 +1,5 @@
 {
-  "name": "patient",
+  "name": "@lerna-test-typescript-npm/patient",
   "version": "0.0.0",
   "description": "for paitens",
   "author": "Nathan Dunn <ndunn@me.com>",
