@@ -20,7 +20,7 @@
   },
   "scripts": {
     "publish": "yalc publish",
-    "build": " bili --format umd --module-name scheduler src/scheduler.ts",
+    "build": " bili --format esm --module-name scheduler src/scheduler.ts",
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },

@@ -20,7 +20,7 @@
   },
   "scripts": {
     "publish": "yalc publish",
-    "build": " bili --format umd --module-name patient src/patient.ts",
+    "build": " bili --format esm --module-name patient src/patient.ts",
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
