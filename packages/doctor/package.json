@@ -23,5 +23,6 @@
   },
   "bugs": {
     "url": "https://github.com/nathandunn/lerna-test-typescript-npm/issues"
-  }
+  },
+  "gitHead": "6af18e381e64e7451b693aaf45fe1afce2c9d56b"
 }
