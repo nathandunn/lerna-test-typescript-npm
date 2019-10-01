@@ -1,6 +1,6 @@
 {
   "name": "@lerna-test-typescript-npm/patient",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "for paitens",
   "author": "Nathan Dunn <ndunn@me.com>",
   "homepage": "https://github.com/nathandunn/lerna-test-typescript-npm#readme",
