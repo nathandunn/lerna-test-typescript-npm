@@ -1,4 +1,4 @@
-export class Doctor {
+export default class Doctor {
   get(id) {
     return {};
   }

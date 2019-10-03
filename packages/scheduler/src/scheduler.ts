@@ -1,4 +1,4 @@
-export class Scheduler {
+export default class Scheduler {
   get(id) {
     return {};
   }
