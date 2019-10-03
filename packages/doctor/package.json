@@ -5,14 +5,14 @@
   "author": "Nathan Dunn <ndunn@me.com>",
   "homepage": "https://github.com/nathandunn/lerna-test-typescript-npm#readme",
   "license": "ISC",
-  "main": "dist/doctor.umd.js",
-  "typings": "lib/doctor.d.ts",
+  "main": "dist/doctor.esm.js",
+  "typings": "dist/doctor.d.ts",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "dist"
+    "dist/**"
   ],
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "publish": "yalc publish",
-	  "build": " bili --format esm --module-name doctor src/doctor.ts",
+    "build": " bili --format esm --module-name doctor src/doctor.ts",
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
