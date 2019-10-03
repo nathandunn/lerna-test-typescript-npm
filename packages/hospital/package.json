@@ -1,17 +1,18 @@
 {
-  "name": "@lerna-test-typescript-npm/patient",
+  "name": "@lerna-test-typescript-npm/hospital",
   "version": "0.0.1-alpha.1",
-  "description": "for paitens",
+  "description": "> TODO: description",
   "author": "Nathan Dunn <ndunn@me.com>",
   "homepage": "https://github.com/nathandunn/lerna-test-typescript-npm#readme",
-  "license": "UNLICENSED",
-  "main": "dist/patient.esm.js",
-  "typings": "dist/patient.d.ts",
+  "license": "ISC",
+  "main": "dist/hospital.esm.js",
+  "typings": "dist/hospital.d.ts",
   "directories": {
-    "dist": "dist"
+    "lib": "dist",
+    "test": "__tests__"
   },
   "files": [
-    "dist"
+    "dist/**"
   ],
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "publish": "yalc publish",
-    "build": " bili --format esm --module-name patient src/patient.ts",
+    "build": " bili --format esm --module-name hospital src/hospital.ts",
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
@@ -29,8 +30,5 @@
   "gitHead": "411035f67130e0f1b83635e428e3197ea781d836",
   "devDependencies": {
     "rollup-plugin-typescript2": "^0.24.3"
-  },
-  "dependencies": {
-    "@lerna-test-typescript-npm/hospital": "file:.yalc/@lerna-test-typescript-npm/hospital"
   }
 }

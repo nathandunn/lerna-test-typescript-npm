@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@lerna-test-typescript-npm/doctor": "file:.yalc/@lerna-test-typescript-npm/doctor",
+    "@lerna-test-typescript-npm/hospital": "file:.yalc/@lerna-test-typescript-npm/hospital",
     "@lerna-test-typescript-npm/patient": "file:.yalc/@lerna-test-typescript-npm/patient",
     "@lerna-test-typescript-npm/scheduler": "file:.yalc/@lerna-test-typescript-npm/scheduler",
     "react": "^16.10.1",
