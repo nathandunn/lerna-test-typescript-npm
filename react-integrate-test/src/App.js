@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import Doctor from '@lerna-test-typescript-npm/doctor'
-import Patient from '@lerna-test-typescript-npm/patient/dist/patient.esm'
-import Scheduler from '@lerna-test-typescript-npm/scheduler/dist/scheduler.esm'
+import Patient from '@lerna-test-typescript-npm/patient'
+import Scheduler from '@lerna-test-typescript-npm/scheduler'
 import './App.css';
 
 function App() {
   console.log(new Doctor());
-  // console.log(new Patient());
-  // console.log(new Scheduler());
+  console.log(new Patient());
+  console.log(new Scheduler());
   return (
     <div className="App">
       <header className="App-header">

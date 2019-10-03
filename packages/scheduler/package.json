@@ -5,14 +5,14 @@
   "author": "Nathan Dunn <ndunn@me.com>",
   "homepage": "https://github.com/nathandunn/lerna-test-typescript-npm#readme",
   "license": "ISC",
-  "main": "lib/scheduler.js",
-  "typings": "lib/scheduler.d.ts",
+  "main": "dist/scheduler.esm.js",
+  "typings": "dist/scheduler.d.ts",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
